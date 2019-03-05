@@ -1,0 +1,34 @@
+<html>
+<head>
+    <style>
+  .video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 99%;
+  height: 99%; 
+  overflow: hidden;
+}
+.video-container video {
+  min-width: 99%; 
+  min-height: 99%; 
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+/* Yes I copied this from the first stackoverflow answer, no I don't care, hats of too raumus */
+        </style>
+
+</head>
+<body>
+<div class="video-container">
+<video controls="true" autoplay="" loop="">
+    <source src="guineapigbridge.mp4" type="video/mp4">
+    You're browser is from 1323 holy shit what browser doesn't support mp4 video tag playing?
+</video>
+</div>
+</body>
+</html>
